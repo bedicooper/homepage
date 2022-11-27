@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+*, 
+::after, 
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: Lato, sans-serif;
+    color: #ddd;
+    background-color: #3b3b3b;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
