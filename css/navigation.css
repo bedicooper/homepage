@@ -1,12 +1,12 @@
 .navigtaion{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 200px;
     background-color: #090085;
-}
-
-.navigation__flexItem{
-    background-color: #008d97;
 }
 
 .navigation__link{
     background-color: #00a53f;
-
+    display: inline-block;
 }

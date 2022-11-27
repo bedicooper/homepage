@@ -1,7 +1,18 @@
 .section{
-    background-color: #ad0000;
+    background-color: hsl(0, 0%, 10%);
+    margin: 8px 0px;
+    padding: 16px;
+    box-shadow: 6px 6px 16px -4px hsl(0deg 0% 8%);
 }
 
 .section__header{
-    background-color: #007e5e;
+    /* background-color: hsl(0, 0%, 7%); */
+    margin-top: 0px;
+    padding: 8px;
+}
+
+.section--footer{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
 }

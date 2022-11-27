@@ -1,0 +1,33 @@
+.header {
+    box-shadow: 6px 6px 16px -4px hsl(0deg 0% 8%);
+    max-width: 960px;
+}
+
+.header__topBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__container {}
+
+.header__titleContainer {
+    width: 100%;
+    background-image: url(../img/0-mbednarz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.header__titleText {
+    display: inline-block;
+
+    margin: 40% 0% 4% 10%;
+
+    font-family: 'Merriweather', serif;
+    color: rgb(29, 29, 29);
+    font-size: xx-large;
+    font-weight: 900;
+
+    text-align: left;
+    text-indent: 24px;
+}

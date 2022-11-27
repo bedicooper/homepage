@@ -10,9 +10,19 @@ html {
 }
 
 .body {
+    max-width: 960px;
+    margin: auto;
+    padding: 0px 16px;
     font-family: Lato, sans-serif;
-    color: #ddd;
-    background-color: #3b3b3b;
+    color: #888;
+    background-color: hsl(0, 0%, 15%);
     word-break: break-word;
     overflow-wrap: break-word;
 }
+
+.main{
+    margin: 32px 0px;
+    min-width: 280px;
+    /* box-shadow: 8px 8px 16px -4px hsl(0, 0%, 5%); */
+}
+
