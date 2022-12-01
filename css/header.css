@@ -8,7 +8,11 @@
     justify-content: space-between;
 }
 
-.header__container {}
+.themeButton{
+    border: 0;
+    background: none;
+    color: #888;
+}
 
 .header__titleContainer {
     width: 100%;
@@ -20,14 +24,11 @@
 
 .header__titleText {
     display: inline-block;
-
     margin: 40% 0% 4% 10%;
-
     font-family: 'Merriweather', serif;
     color: rgb(29, 29, 29);
     font-size: xx-large;
     font-weight: 900;
-
     text-align: left;
     text-indent: 24px;
 }

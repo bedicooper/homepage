@@ -23,6 +23,8 @@ html {
 .main{
     margin: 32px 0px;
     min-width: 280px;
-    /* box-shadow: 8px 8px 16px -4px hsl(0, 0%, 5%); */
 }
 
+.boldText{
+    font-weight: 900;
+}
