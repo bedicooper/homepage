@@ -14,13 +14,15 @@ html {
     margin: auto;
     padding: 0px 16px;
     font-family: Lato, sans-serif;
-    color: #888;
+    color: hsl(0, 0%, 55%);
     background-color: hsl(0, 0%, 15%);
     word-break: break-word;
     overflow-wrap: break-word;
 }
 
 .main{
+    background-color: hsl(0, 0%, 10%);
+    box-shadow: 6px 6px 16px -4px hsl(0deg 0% 8%);
     margin: 32px 0px;
     min-width: 280px;
 }

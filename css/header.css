@@ -1,9 +1,11 @@
 .header {
-    box-shadow: 6px 6px 16px -4px hsl(0deg 0% 8%);
     max-width: 960px;
+    border-bottom: 4px solid hsl(0, 0%, 15%);
+
 }
 
 .header__topBar {
+    padding: 4px;
     display: flex;
     justify-content: space-between;
 }
@@ -11,7 +13,7 @@
 .themeButton{
     border: 0;
     background: none;
-    color: #888;
+    color: hsl(0, 0%, 55%);
 }
 
 .header__titleContainer {

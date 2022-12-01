@@ -1,0 +1,22 @@
+
+.body--lightMode{
+    background-color: hsl(0, 0%, 75%);
+    color:hsl(0, 0%, 15%)
+}
+
+.main--lightMode{
+    background-color: hsl(0, 0%, 85%);
+    box-shadow: 6px 6px 16px -4px hsl(0, 0%, 55%);
+}
+
+.header--lightMode{
+    border-bottom: 4px solid hsl(0, 0%, 75%);
+}
+
+.themeButton--lightMode{
+    color:hsl(0, 0%, 15%)
+}
+
+.navigation__link--lightMode{
+    color:hsl(0, 0%, 15%)
+}
