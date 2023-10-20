@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.fff507c3.css",
+    "main.js": "/homepage/static/js/main.e58af863.js",
+    "static/js/787.ed490093.chunk.js": "/homepage/static/js/787.ed490093.chunk.js",
+    "static/media/0-mbednarz.jpg": "/homepage/static/media/0-mbednarz.654d0f03ee4855c939c2.jpg",
+    "index.html": "/homepage/index.html",
+    "main.fff507c3.css.map": "/homepage/static/css/main.fff507c3.css.map",
+    "main.e58af863.js.map": "/homepage/static/js/main.e58af863.js.map",
+    "787.ed490093.chunk.js.map": "/homepage/static/js/787.ed490093.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fff507c3.css",
+    "static/js/main.e58af863.js"
+  ]
+}
