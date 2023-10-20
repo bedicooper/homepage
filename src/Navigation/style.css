@@ -1,0 +1,18 @@
+.navigtaion{
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+}
+
+.navigation__link{
+    display: inline-block;
+    text-decoration: none;
+    color: #888;
+    font-family: 'Merriweather', serif;
+}
+
+.navigation__link--boldText{
+    font-weight: 900;
+}
