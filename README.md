@@ -4,7 +4,7 @@ Welcome to my simple homepage that I've created for learing purpuses.<br>
 It showcases my current occupation as an Architect while I'm studying to become a frontend developer.
 This project is a part of entry level online course for Frontend developers that I'm participating in.
 
-![black and white two-third portrait of Mateusz Bednarz, a white male with glasses and facail hair on a light drape background](https://raw.githubusercontent.com/bedicooper/homepage-react/main/public/icon.png)
+![black and white two-third portrait of Mateusz Bednarz, a white male with glasses and facail hair on a light drape background](https://raw.githubusercontent.com/bedicooper/homepage/main/public/icon.png)
 
 Thank You for stopping by.
 
@@ -14,9 +14,9 @@ This is an early version, so far only built with React Components, with no inter
 
 ## Demo
 
-https://bedicooper.github.io/homepage-react/
+https://bedicooper.github.io/homepage/
 
-![screenshot of the websites header with greeting message across authors portait in black and white.](https://raw.githubusercontent.com/bedicooper/homepage-react/main/public/homepageScreenshotDark.png)
+![screenshot of the websites header with greeting message across authors portait in black and white.](https://raw.githubusercontent.com/bedicooper/homepage/main/public/homepageScreenshotDark.png)
 
 ## Written in 
 
