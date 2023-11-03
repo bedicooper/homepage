@@ -9,7 +9,10 @@ This project is a part of entry level online course for Frontend developers that
 Thank You for stopping by.
 
 ## What's New?
-(0.1.0)
+**0.2.0:**
+App structure overhall, interactions on themeButton and Form added with custom hooks and Style Components.
+
+**0.1.0**
 This is an early version, so far only built with React Components, with no interactions. Hoping to add them soon!
 
 ## Demo
@@ -18,9 +21,17 @@ https://bedicooper.github.io/homepage/
 
 ![screenshot of the websites header with greeting message across authors portait in black and white.](https://raw.githubusercontent.com/bedicooper/homepage/main/public/homepageScreenshotDark.png)
 
-## Written in 
-
-In this project I'm using *React*, *BEM*, *javascript ES 6+*, *CSS*, *grid* and *flex*.
+## Used technologies 
+|   HTML        |   CSS           |   JavaScript        | ReactJS          |
+| :---:         | :---:           | :---:               | :---:            |
+| Google Fonts  | Normalize CSS   | ES6                 | create-react-app |
+| BEM           | grid            |                     | Webpack          |
+|               | flex            |                     | Babel            |
+|               | media queries   |                     | React DOM        |
+|               |                 |                     | State, Effect and Ref hooks    |
+|               |                 |                     | Custom hooks     |
+|               |                 |                     | setInterval      |
+|               |                 |                     | Style Components |
 
 #### Create React App 
 

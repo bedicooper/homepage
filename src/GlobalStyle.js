@@ -32,6 +32,7 @@ export const lightTheme = {
     transition: '0.2s ease-in',
     active: 'hsl(0, 0%, 50%)'
 };
+
 export const darkTheme = {
     primary: 'hsl(0, 0%, 10%)',
     secondary: 'hsl(0, 0%, 15%)',

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 
-
 export const useChangeTheme = () => {
     const getInitialState = () => {
         const localStorageState = localStorage.getItem("theme");
