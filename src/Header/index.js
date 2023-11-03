@@ -1,22 +1,16 @@
-import "./style.css";
+import { StyledHeader, TitleContainer, Title } from "./styled";
+import Navigation from "./Navigation";
 
-const Header = ({ themeButton, navigation }) => (
-    <section className="header js-header">
-        <div className="header__topBar">
-            <div className="header__container">
-                <span>mateusz <span className="header__topBar--boldText">bednarz</span></span>
-            </div>
-            <div className="header__container">
-                {themeButton}
-            </div>
-        </div>
-        <div className="header__titleContainer"
+const Header = () => (
+    <StyledHeader>
+        <TitleContainer
             title="black and white two-third portrait of a white male with glasses and facail hair on a light drape background">
-            <span className="header__titleText">Hi, <br />
-                I'm Matthew.</span>
-        </div>
-        {navigation}
-    </section>
+            <Title>
+                {`Hi,`}<br />{`I'm Matthew.`}
+            </Title>
+        </TitleContainer>
+        <Navigation />
+    </StyledHeader >
 );
 
 export default Header;

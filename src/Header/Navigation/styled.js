@@ -1,18 +1,17 @@
-.navigtaion{
+import styled from "styled-components";
+
+export const NavContainer = styled.nav`
+    margin-top: 6px;
     padding: 6px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-basis: 200px;
-}
+`;
 
-.navigation__link{
+export const Item = styled.a`
     display: inline-block;
     text-decoration: none;
-    color: #888;
+    color: ${({ theme }) => theme.text};
     font-family: 'Merriweather', serif;
-}
-
-.navigation__link--boldText{
-    font-weight: 900;
-}
+`
