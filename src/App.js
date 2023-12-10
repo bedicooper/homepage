@@ -6,14 +6,14 @@ import { Container } from "./Container/styled";
 import { TopBar, StyledButton } from "./TopBar/styled";
 import Header from "./Header";
 import Section from "./Section";
-import Gallery from "./Section/Gallery";
 import Form from "./Section/Form";
-import { StyledFooter } from './Section/Footer/styled';
+
 import { toAbout, toHome, toSkills, toWork } from './routes';
 import HomePage from './features/HomePage';
 import PortfolioPage from './features/PortfolioPage';
 import SkillsPage from './features/SkillsPage';
 import AboutPage from './features/AboutPage';
+import Footer from './Footer';
 
 
 function App() {
@@ -58,10 +58,7 @@ function App() {
             body="Please contact me via email or through the form below (once it works)"
             additionalContent={<Form />}
           />
-          <Section
-            id="footer"
-            body={<StyledFooter>footnote/links</StyledFooter>}
-          />
+          <Footer />
         </Container>
       </HashRouter>
     </ThemeProvider>
