@@ -7,6 +7,7 @@ export const NavContainer = styled.nav`
     justify-content: space-around;
     flex-wrap: wrap;
     flex-basis: 200px;
+    z-index: 2;
 `;
 
 export const Item = styled.a`
