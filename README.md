@@ -19,7 +19,7 @@ This is an early version, so far only built with React Components, with no inter
 
 https://bedicooper.github.io/homepage/
 
-![screenshot of the websites header with greeting message across authors portait in black and white.](https://raw.githubusercontent.com/bedicooper/homepage/main/public/homepageScreenshotDark.png)
+![screenshot of the websites header with greeting message across authors portait in black and white.](https://raw.githubusercontent.com/bedicooper/homepage/main/homepageScreenshotDark.png)
 
 ## Used technologies 
 |   HTML        |   CSS           |   JavaScript        | ReactJS          |
