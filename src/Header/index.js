@@ -1,15 +1,16 @@
-import { StyledHeader, TitleContainer, Title } from "./styled";
+import { TopBar, Container } from "./styled";
+import { StyledHeader } from "../styled";
 import Navigation from "./Navigation";
+import HeaderImage from "./HeaderImage";
 
 const Header = () => (
     <StyledHeader>
-        <TitleContainer
-            title="black and white two-third portrait of a white male with glasses and facail hair on a light drape background">
-            <Title>
-                {`Hi,`}<br />{`I'm Matthew.`}
-            </Title>
-        </TitleContainer>
-        <Navigation />
+        <TopBar>
+            <Navigation />
+        </TopBar>
+        <Container>
+            <HeaderImage />
+        </Container>
     </StyledHeader >
 );
 

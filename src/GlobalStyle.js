@@ -13,9 +13,8 @@ html {
 }
 
 body {
-    max-width: 960px;
     margin: auto;
-    padding: 0px 16px;
+    padding: 24px;
     font-family: Lato, sans-serif;
     color: ${({ theme }) => theme.text};
     background-color: ${({ theme }) => theme.secondary};
