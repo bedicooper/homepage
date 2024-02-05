@@ -12,8 +12,8 @@ export const Button = styled.button`
     background: none;
     padding: 2px;
     color: inherit;
-    outline-offset: 8px;
-    transition: transform 300ms;
+    outline-offset: 4px;
+    transition: transform ${({ theme }) => theme.transitions.themeChange};
     position: absolute;
     top: 32px;      //body and topBar padding
     right: 24px;    //body padding
@@ -22,7 +22,6 @@ export const Button = styled.button`
         top: 12px;
         right: 12px;
     }
-
 `
 
 export const Pill = styled.div`
