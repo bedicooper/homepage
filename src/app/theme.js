@@ -11,33 +11,34 @@ const commonThemes = {
     },
 };
 
+const namedColors = {
+    white: "FAFAFA",
+    offWhite: "#F3F5F0",
+    lightGray: "#8C8C8C",
+    gray: "#383838",
+    darkGray: "#262626",
+    green: "#70C270",
+    darkGreen: "#2B642B",
+}
+
 export const darkTheme = {
     ...commonThemes,
-    color: {
-        primary: "#262626",      //darkGray
-        secondary: "#383838",    //gray
-        text: "#F3F5F0",         //offWhite
-        accent: "#70C270",       //green
+    colors: {
+        primary: namedColors.darkGray,
+        secondary: namedColors.gray,
+        text: namedColors.offWhite,
+        accent: namedColors.green,
         shadow: 'hsl(0, 0%, 8%)',
     },
 };
 
 export const lightTheme = {
     ...commonThemes,
-    color: {
-        primary: "#F3F5F0",      //offWhite
-        secondary: "FAFAFA",     //white
-        text: "#262626",         //darkGray
-        accent: "#2B642B",       //darkGreen
+    colors: {
+        primary: namedColors.offWhite,
+        secondary: namedColors.white,
+        text: namedColors.darkGray,
+        accent: namedColors.darkGreen,
         shadow: 'hsl(0, 0%, 55%)',
     },
 };
-
-/* 
-    white: "FAFAFA",
-    offWhite: "#F3F5F0",
-    gray: "#383838",
-    darkGray: "#262626",
-    green: "#70C270",
-    darkGreen: "#2B642B",
-*/
