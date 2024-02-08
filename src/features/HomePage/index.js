@@ -1,16 +1,33 @@
-import { Button, FirstHeading, HeadingGreeting } from "../../styled";
-import { Container } from "../styled";
-import { HomeArticle, FirstHeadingAccent, Message } from "./styled";
+import { FirstHeading, HeadingGreeting } from "../../app/styled";
+import {
+    HomeArticle,
+    FirstHeadingAccent,
+    Message,
+    StyledButtonLink,
+    ButtonIcon,
+    HomeSection
+} from "./styled";
+import email from "../../utils/email";
 
-const HomePage = () => (
-    <Container>
+export default () => (
+    <HomeSection>
         <HomeArticle>
             <HeadingGreeting>Hi,</HeadingGreeting>
-            <FirstHeading> I'm <FirstHeadingAccent>Matthew</FirstHeadingAccent></FirstHeading>
-            <Message>a Front-end Developer based in Warsaw determined to turn your ideas into visually stunning and user-centric digital realities.</Message>
-            <Button>✉ Hire me</Button>
+            <FirstHeading>
+                I'm <FirstHeadingAccent>Matthew</FirstHeadingAccent>
+            </FirstHeading>
+            <Message>
+                a Front-end Developer
+                based&nbsp;in&nbsp;Warsaw
+                determined&nbsp;to&nbsp;turn
+                your&nbsp;ideas
+                into&nbsp;visually&nbsp;stunning&nbsp;and
+                user-centric&nbsp;digital&nbsp;realities.
+            </Message>
+            <StyledButtonLink href={`mailto:${email}`} title={email}>
+                <ButtonIcon />
+                Hire me
+            </StyledButtonLink>
         </HomeArticle>
-    </Container>
+    </HomeSection>
 );
-
-export default HomePage;
