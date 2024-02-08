@@ -1,13 +1,28 @@
-import Gallery from "../../Section/Gallery";
-import { Container } from "../styled";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "./porfolioSlice";
+import { StyledSection } from "../styled";
+import { SecondHeading } from "../../app/styled";
+import { Gallery } from "./Gallery/index";
+import githubUsername from "../../utils/githubUsername";
 
-export default () => (
-    <Container>
-        <h2>projects I worked on</h2>
-        <p>
-            Science 2013 I have worked with studioKOSMOS and GRUPA 5 Architekci
-            on variuos designs form conceptual work through construction and commissioning."
-        </p>
-        <Gallery/>
-    </Container>
-);
+export default () => {
+    const dispatch = useDispatch();
+
+    const data = useSelector(selectRepositories);
+    const dataStatus = useSelector(selectRepositoriesStatus);
+
+    useEffect(() => {
+        dispatch(fetchRepositories(githubUsername));
+    }, [dispatch]);
+
+    return (
+        <StyledSection id="work">
+            <SecondHeading>projects I recently worked on</SecondHeading>
+            <Gallery
+                repositories={data}
+                status={dataStatus}
+            />
+        </StyledSection>
+    )
+};
