@@ -1,4 +1,4 @@
-import { toAbout, toSkills, toWork } from '../../app/routes';
+import { toAbout, toSkills, toWork } from '../../../app/routes';
 import { NavContainer, StyledNavLink } from './styled';
 
 export const Navigation = () => (
