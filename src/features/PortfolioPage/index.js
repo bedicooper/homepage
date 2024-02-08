@@ -1,6 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "./porfolioSlice";
+import {
+    fetchRepositories,
+    selectRepositories,
+    selectRepositoriesStatus
+} from "./porfolioSlice";
 import { StyledSection } from "../styled";
 import { SecondHeading } from "../../app/styled";
 import { Gallery } from "./Gallery/index";
@@ -18,7 +22,9 @@ export default () => {
 
     return (
         <StyledSection id="work">
-            <SecondHeading>projects I recently worked on</SecondHeading>
+            <SecondHeading>
+                projects I recently worked on
+            </SecondHeading>
             <Gallery
                 repositories={data}
                 status={dataStatus}
