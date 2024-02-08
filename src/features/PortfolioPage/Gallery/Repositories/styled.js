@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import α from "color-alpha";
 
 export const List = styled.ul`
     list-style: none;
@@ -62,6 +63,10 @@ export const LinksValue = styled.dd`
 export const Link = styled.a`
     text-decoration: none;
     color: ${({ theme }) => theme.colors.accent};
-    border-bottom: 1px solid;
+    border-bottom: 1px solid ${({ theme }) => α(theme.colors.accent, 0.3)};
     padding-bottom: 1px;
+
+    &:hover {
+        border-color: unset;
+    }
 `
