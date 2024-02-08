@@ -8,19 +8,26 @@ export const Button = styled.button`
     height: 16px;
     width: 32px;
     border-radius: 16px;
-    border: 1px solid ${({ theme }) => theme.colors.text};;
+    border: 1px solid ${({ theme }) => theme.themeSwitch.color};
     background: none;
     padding: 2px;
     color: inherit;
     outline-offset: 4px;
     transition: transform ${({ theme }) => theme.transitions.themeChange};
     position: absolute;
-    top: 32px;      //body and topBar padding
-    right: 24px;    //body padding
-
+    top: 8px;      //topBar padding
+    right: 0;
+    z-index: 2;
+    
     @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
-        top: 12px;
-        right: 12px;
+        top: 0;
+    }
+
+    @media 
+        (max-width: ${({ theme }) => theme.breakpoints.laptop}px) 
+        and 
+        (min-height: ${({ theme }) => theme.breakpoints.laptop}px) {
+            top: 0;
     }
 `
 
@@ -28,10 +35,10 @@ export const Pill = styled.div`
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 1px solid ${({ theme }) => theme.colors.text};;
-    background-color: ${({ theme }) => theme.colors.text};;
+    border: 1px solid ${({ theme }) => theme.themeSwitch.color};
+    background-color: ${({ theme }) => theme.themeSwitch.color};
 
-    ${({ isLightTheme }) => isLightTheme && css`
+    ${({ $isLightTheme }) => $isLightTheme && css`
         transform: translateX(-14px);
         background: none;
     `}

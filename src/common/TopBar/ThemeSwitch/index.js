@@ -7,10 +7,11 @@ export const ThemeSwitch = () => {
     const isLightTheme = useSelector(selectIsLightTheme);
 
     return (
-        <Button 
-        onClick={() => dispatch(toggleTheme())}
-        title={ isLightTheme ? "turn off the lights" : "turn on the lights"}>
-            <Pill isLightTheme={isLightTheme} />
+        <Button
+            onClick={() => dispatch(toggleTheme())}
+            title={isLightTheme ? "turn off the lights" : "turn on the lights"}
+        >
+            <Pill $isLightTheme={isLightTheme} />
         </Button>
     );
 };
