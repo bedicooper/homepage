@@ -55,14 +55,14 @@ export const StyledMain = styled.main`
     min-width: 280px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.moblieMax}px) {
-		margin-top: 0;
+		padding: 0
 	}
 
     @media 
         (max-width: ${({ theme }) => theme.breakpoints.laptop}px) 
         and 
         (min-height: ${({ theme }) => theme.breakpoints.laptop}px) {
-            margin-top: 0;
+            padding: 0
     }
 `
 
@@ -101,12 +101,14 @@ export const SecondHeading = styled.h2`
 export const ThirdHeading = styled.h3`
     font-weight: 500;
     margin: 0;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 `
 
 export const ForthHeading = styled.h4`
+    display: inline-flex;
     font-weight: 200;
-    margin: 0 0 12px 0;
+    margin: 0.25em 0;
     text-transform: uppercase;
     letter-spacing: initial;
+    line-height: 1.5em;
 `
