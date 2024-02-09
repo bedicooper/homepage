@@ -17,6 +17,8 @@ export default () => (
                 I'm eager to expand my skill set and tackle new challenges in this dynamic field.
             </Paragraph>
 
+            <CurrentExp />
+            <PreviousExp />
             <Box>
                 Download above as a CV
                 <Link
