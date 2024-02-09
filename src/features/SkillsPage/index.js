@@ -13,7 +13,7 @@ export default () => (
             I'm also eager to explore other popular frameworks like Vue.js and Angular.
         </p>
         <p>
-            In my previous role as an architect, I excelled in collaborating within multidisciplinary teams to deliver complex projects.
+            In my previous role as an architect, I thrived in collaborating within multidisciplinary teams to deliver complex projects.
             I consistently took on significant responsibilities, contributing to the successful completion of various large-scale projects.
         </p>
 
