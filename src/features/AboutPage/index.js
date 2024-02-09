@@ -19,6 +19,7 @@ export default () => (
 
             <CurrentExp />
             <PreviousExp />
+            <Traits />
             <Box>
                 Download above as a CV
                 <Link
