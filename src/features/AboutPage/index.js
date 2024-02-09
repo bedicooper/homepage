@@ -20,6 +20,7 @@ export default () => (
             <CurrentExp />
             <PreviousExp />
             <Traits />
+            <Interest />
             <Box>
                 Download above as a CV
                 <Link
