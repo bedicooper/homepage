@@ -10,11 +10,13 @@ export const Container = styled.div`
     display: flex;
     gap: 18px;
     margin-left: 18px;
+    margin-top: 18px;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
         flex-direction: column-reverse;
         gap: 12px;
         margin-left: 12px;
+        margin-top: 12px;
         padding-bottom: 32px;
     }
 `
