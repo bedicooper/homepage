@@ -22,6 +22,7 @@ import HomePage from '../features/HomePage';
 import PortfolioPage from '../features/PortfolioPage';
 import SkillsPage from '../features/SkillsPage';
 import AboutPage from '../features/AboutPage';
+import { NavigationMobile } from '../common/Navigation';
 
 export default () => (
 	<HashRouter>
@@ -30,9 +31,10 @@ export default () => (
 		<WrapperMobile>
 			<HeaderMobile />
 			<StyledMain>
-				<AboutPage />
+				<NavigationMobile />
 				<SkillsPage />
 				<PortfolioPage />
+				<AboutPage />
 			</StyledMain>
 			<Footer />
 		</WrapperMobile>

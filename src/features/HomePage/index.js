@@ -10,7 +10,7 @@ import {
 import email from "../../utils/email";
 
 export default () => (
-    <HomeSection>
+    <HomeSection id="home">
         <HomeArticle>
             <HeadingGreeting>Hi,</HeadingGreeting>
             <FirstHeading>
