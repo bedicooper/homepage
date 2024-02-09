@@ -34,11 +34,7 @@ export const List = styled.ul`
 
 export const Item = styled.li`
     display: flex;
-    line-height: 1.4;
-
-    @media(max-width: ${({theme})=> theme.breakpoints.mobile}px) {
-        line-height: 1.2;
-    }
+    align-items: center;
 `
 
 export const Bullet = styled(BulletSVG)`
