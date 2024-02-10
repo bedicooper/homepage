@@ -1,8 +1,8 @@
 const namedColors = {
-    white: "#FAFAFA",
-    offWhite: "#F3F5F0",
+    white: "#EDF2ED",
+    offWhite: "#D9D9D9",
     lightGray: "#8C8C8C",
-    gray: "#383838",
+    gray: "#303030",
     darkGray: "#262626",
     green: "#70C270",
     darkGreen: "#2B642B",
@@ -24,7 +24,7 @@ const commonThemes = {
     borderRadius: "6px",
     shadows: {
         boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 8px 0px",
-        hoverShadow: "rgba(0, 0, 0, 0.6) 0px 2px 12px 4px",
+        hoverShadow: "rgba(0, 0, 0, 0.4) 0px 2px 10px 2px",
     },
     themeSwitch: {
         color: namedColors.lightGray,
@@ -38,12 +38,11 @@ export const darkTheme = {
         secondary: namedColors.gray,
         text: namedColors.offWhite,
         accent: namedColors.green,
-        // shadow: 'hsl(0, 0%, 8%)',
     },
     buttonLink: {
         text: namedColors.darkGray,
     },
-    headerLine: namedColors.offWhite,
+    headerLine: namedColors.lightGray,
 
 };
 
@@ -54,12 +53,11 @@ export const lightTheme = {
         secondary: namedColors.white,
         text: namedColors.darkGray,
         accent: namedColors.darkGreen,
-        // shadow: 'hsl(0, 0%, 55%)',
     },
     buttonLink: {
         text: namedColors.white,
     },
-    headerLine: namedColors.darkGray,
+    headerLine: namedColors.lightGray,
     tile: {
         header: namedColors.green,
     }

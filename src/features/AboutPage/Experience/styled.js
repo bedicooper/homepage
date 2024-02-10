@@ -21,7 +21,7 @@ export const Row = styled.div`
     padding-bottom: 6px;
 
     &:not(:last-child) {
-        border-bottom: 1px solid;
+        border-bottom: 1px solid ${({ theme }) => theme.headerLine};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {

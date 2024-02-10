@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
     body {
         margin: auto;
         padding: 24px;
-        padding-bottom: 64px;
         background-color: ${({ theme }) => theme.colors.primary};
         font-family: Lato, sans-serif;
         font-size: 16px;
