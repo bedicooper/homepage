@@ -22,6 +22,7 @@ export default () => (
                 determined&nbsp;to&nbsp;turn
                 your&nbsp;ideas
                 into&nbsp;visually&nbsp;stunning&nbsp;and
+                <br/>
                 user-centric&nbsp;digital&nbsp;realities.
             </Message>
             <StyledButtonLink href={`mailto:${email}`} title={email}>
