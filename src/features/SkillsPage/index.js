@@ -9,8 +9,12 @@ export default () => (
             how I can help You
         </SecondHeading>
         <p>
-            I specialize in frontend development, primarily using React with and without Redux, as well as vanilla JavaScript.
-            I'm also eager to explore other popular frameworks like Vue.js and Angular.
+            I specialize in frontend development in JavaScript, primarily working within React framework with Router and Redux Toolkit.
+            I'm also eager to explore other popular frameworks like Vue.js and Angular, as well as more backend oriented frameworks like Node.js
+            With a growing skill set in frontend development, I prioritize clean code and seamless user experiences. 
+            I collaborate effectively and have experience in utilization of agile methodologies like 
+            Scrum and tools such as Trello for efficient project management. 
+            Additionally, my familiarity with Git and GitHub facilitates smooth version control and collaboration.
         </p>
         <p>
             In my previous role as an architect, I thrived in collaborating within multidisciplinary teams to deliver complex projects.
