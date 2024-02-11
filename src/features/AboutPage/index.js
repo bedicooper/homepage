@@ -24,7 +24,7 @@ export default () => (
             <Box>
                 Download above as a CV
                 <Link
-                    href=""
+                    href="https://swxmb.com/files/Mateusz_Bednarz_Developer_Resume.pdf"
                     target="_blank"
                     rel="noreferrer"
                     title="Download my CV"
