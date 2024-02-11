@@ -20,6 +20,15 @@ export const CurrentExp = () => (
 	<Article>
 		<ThirdHeading>Coding Experience</ThirdHeading>
 		<Wrapper>
+		<Row>
+				<Dates>
+					<span>february</span>
+					<span><strong>2024</strong></span>
+				</Dates>
+				<Description>
+					In February 2024, I began learing TypeScript from followup lessons from YouCode.pl
+				</Description>
+			</Row>
 			<Row>
 				<Dates>
 					<span><strong>2023</strong></span>
@@ -52,7 +61,7 @@ export const CurrentExp = () => (
 						</Box>
 						<Box>
 							<span>
-								Here you will find the course completion certificate
+								Here you will be able to find the course completion certificate
 							</span>
 							<LinksBox>
 								<Link
