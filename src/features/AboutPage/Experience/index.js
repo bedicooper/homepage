@@ -22,7 +22,7 @@ export const CurrentExp = () => (
 		<Wrapper>
 		<Row>
 				<Dates>
-					<span>february</span>
+					<span>FEB.</span>
 					<span><strong>2024</strong></span>
 				</Dates>
 				<Description>
@@ -104,7 +104,7 @@ export const PreviousExp = () => (
 			</Row>
 			<Row>
 				<Dates>
-					<span>april</span>
+					<span>APR.</span>
 					<span><strong>2015</strong></span>
 				</Dates>
 				<Description>
