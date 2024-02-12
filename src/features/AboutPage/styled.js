@@ -28,6 +28,7 @@ export const Bullet = styled(BulletSVG)`
 
 export const Paragraph = styled.p`
     margin: 0.5em 0 1em 2em;
+    line-height: 1.4;
     
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
         margin-left: 1.25em;

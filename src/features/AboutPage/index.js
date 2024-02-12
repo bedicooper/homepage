@@ -1,8 +1,8 @@
-import { StyledSection } from "../styled";
+import { StyledSection, Paragraph } from "../styled";
 import {
     SecondHeading,
 } from "../../app/styled";
-import { Box, DownloadIcon, Link, Paragraph } from "./styled";
+import { Box, DownloadIcon, Link } from "./styled";
 import { CurrentExp, PreviousExp } from "./Experience/index";
 import { Traits } from './Traits/index'
 import { Interest } from "./Interests";
