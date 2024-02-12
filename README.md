@@ -1,14 +1,21 @@
-## Online resume of Mateusz Bednarz
-Hi, I'm Matt!<br>
-Welcome to my simple homepage that I've created for learing purpuses.<br>
-It showcases my current occupation as an Architect while I'm studying to become a frontend developer.
-This project is a part of entry level online course for Frontend developers that I'm participating in.
+# **Mateusz Bednarz**
+## JavaScript Developer
+Hi, I'm Matthew!<br>
+a Front-end Developer based in Warsaw.<br>
+I this repository You will find source code for my resume website:
+https://swxmb.com
 
 ![black and white two-third portrait of Mateusz Bednarz, a white male with glasses and facail hair on a light drape background](https://raw.githubusercontent.com/bedicooper/homepage/main/public/icon.png)
 
-Thank You for stopping by.
+Thank You for stopping by!
+You can reach me at <a href="mailto:mateusz@swxmb.com" target="_blank">mateusz@swxmb.com</a>
 
 ## What's New?
+**1.0.0:**
+A brand new website! Embarking on a new journey in the software world, leaving behind my background in architecture.
+
+#### _old website updates_
+
 **0.2.0:**
 App structure overhall, interactions on themeButton and Form added with custom hooks and Style Components.
 
@@ -17,37 +24,44 @@ This is an early version, so far only built with React Components, with no inter
 
 ## Demo
 
-https://bedicooper.github.io/homepage/
-
-![screenshot of the websites header with greeting message across authors portait in black and white.](https://raw.githubusercontent.com/bedicooper/homepage/main/homepageScreenshotDark.png)
+![animated demo of the website.](https://raw.githubusercontent.com/bedicooper/homepage/main/.github/appDemo.gif)
 
 ## Used technologies 
-|   HTML        |   CSS           |   JavaScript        | ReactJS          |
-| :---:         | :---:           | :---:               | :---:            |
-| Google Fonts  | Normalize CSS   | ES6                 | create-react-app |
-| BEM           | grid            |                     | Webpack          |
-|               | flex            |                     | Babel            |
-|               | media queries   |                     | React DOM        |
-|               |                 |                     | State, Effect and Ref hooks    |
-|               |                 |                     | Custom hooks     |
-|               |                 |                     | setInterval      |
-|               |                 |                     | Style Components |
 
-#### Create React App 
+#### `Framework:` This Page was build on React.js framework with custom hooks.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### `Page Structure:` Routing supported with HashRouter from react-router library.
 
-#### Available Scripts
+#### `State Management:` Leveraging Redux-Saga for state management, including middleware for asynchronous operations.
+
+#### `Styling:` Utilizing JSX, Flexbox, CSS Grid, and Styled Components for an appealing and responsive design.
+
+#### `Asynchronous Operations:` Implementing asynchronous functionality using Axios, Async/Await, and Redux-Saga.
+
+#### `Data fetchig:` This website requests data from GitHub API.
+
+#### `UI Inspiration:` This project draws inspiration from UI desing by Ewelina Sklodowska.
+
+
+### Create React App 
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). CRA Provides a streamlined setup for project, including Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader
+
+### Available Scripts
 
 In the project directory, you can run:
 
-##### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+#### `npm run deploy`
+This script is available for deployment and is responsible for deploying the app to GitHub Pages. Use it to showcase your project to the world!
+Remember to change value of `homepage` property in package.json to `"https://YOUR-USER-NAME.github.io/YOUR-REPO-NAME/"`
 
 #### `npm run build`
 
