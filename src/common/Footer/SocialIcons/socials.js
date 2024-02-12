@@ -11,7 +11,7 @@ export const socials = [
     },
     {
         name: "LinkedIn",
-        url: `https://linkedin.com/`,
+        url: `https://linkedin.com/in/mateusz-bednarz-software/`,
         Icon: styledIcon(LinkedInIcon),
     },
 ];
