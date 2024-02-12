@@ -65,7 +65,7 @@ export const CurrentExp = () => (
 							</span>
 							<LinksBox>
 								<Link
-									href=""
+									href="https://swxmb.com/files/Mateusz_Bednarz_Certificate.pdf"
 									target="_blank"
 									rel="noreferrer"
 									title="Course Certificate"
