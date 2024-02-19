@@ -32,6 +32,28 @@ export const CurrentExp = () => (
 			</Row>
 			<Row>
 				<Dates>
+					<span>FEB.</span>
+					<span><strong>2024</strong></span>
+				</Dates>
+				<Description>
+					{`On February 19, 2024, I `}
+					<LinkText
+						href={`https://www.sololearn.com/en/certificates/CC-A2OX3ERN`}
+						target="_blank"
+						rel="noreferrer"
+						title="Course Certificate Page"
+					>
+						completed
+					</LinkText>
+					{` an entry level online course on Angular framework on sololearn.com,
+					during wich I learned to create scalable and dynamic web applications using Angular and TypeScript,
+					employ components for organized and structured code,
+					implement user interaction features, design forms with validation
+					and use Angular routing.`}
+				</Description>
+			</Row>
+			<Row>
+				<Dates>
 					<span><strong>2023</strong></span>
 					<span>to</span>
 					<span><strong>2024</strong></span>
