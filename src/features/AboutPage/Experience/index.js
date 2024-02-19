@@ -9,9 +9,10 @@ import {
 	Container,
 	Box,
 	LinksBox,
-	Link,
+	LinkIcon,
 	GitHubIcon,
-	CertificateIcon
+	CertificateIcon,
+	LinkText
 } from "./styled";
 import { Article, Paragraph } from '../styled';
 import githubUsername from "../../../utils/githubUsername";
@@ -20,7 +21,7 @@ export const CurrentExp = () => (
 	<Article>
 		<ThirdHeading>Coding Experience</ThirdHeading>
 		<Wrapper>
-		<Row>
+			<Row>
 				<Dates>
 					<span>FEB.</span>
 					<span><strong>2024</strong></span>
@@ -36,12 +37,37 @@ export const CurrentExp = () => (
 					<span><strong>2024</strong></span>
 				</Dates>
 				<Description>
-					In 2023, I completed an online course on frontend development from YouCode.pl,
-					during which I progressively built two web apps: a Currency Converter and a Tasks List Manager.
-					What started as a simple HTML pages with some logic in vanilla JS whith each was refactored
+					{`In 2023, I completed an online course on frontend development from YouCode.pl,
+					during which I progressively built two web apps: a `}
+					<LinkText
+						href={`https://${githubUsername}.github.io/currency-exchange/`}
+						target="_blank"
+						rel="noreferrer"
+						title="Currency Converter Demo"
+					>
+						Currency Converter
+					</LinkText>
+					{` and a `}
+					<LinkText
+						href={`https://${githubUsername}.github.io/taskList__react/`}
+						target="_blank"
+						rel="noreferrer"
+						title="Task List Demo"
+					>
+						Tasks List Manager
+					</LinkText>
+					{`. What started as a simple HTML pages with some logic in vanilla JS whith each was refactored
 					using React, Styled-Components and react-redux.
-					The culmination of the course was the development of a larger app, a Movies Browser,
-					which was collaboratively built by a team of three course participants and completed in January 2024.
+					The culmination of the course was the development of a larger app, a `}
+					<LinkText
+						href={`https://${githubUsername}.github.io/movies-browser/`}
+						target="_blank"
+						rel="noreferrer"
+						title="Movies Browser Demo"
+					>
+						Movies Browser
+					</LinkText>
+					{`, which was collaboratively built by a team of three course participants and completed in January 2024.`}
 					<Container>
 						<Box>
 							<span>
@@ -49,14 +75,14 @@ export const CurrentExp = () => (
 								where you can find the code and demos for the aforementioned repositories.
 							</span>
 							<LinksBox>
-								<Link
+								<LinkIcon
 									href={`https://github.com/${githubUsername}`}
 									target="_blank"
 									rel="noreferrer"
 									title="Go to GitHub"
 								>
 									<GitHubIcon />
-								</Link>
+								</LinkIcon>
 							</LinksBox>
 						</Box>
 						<Box>
@@ -64,14 +90,14 @@ export const CurrentExp = () => (
 								Here you will be able to find the course completion certificate
 							</span>
 							<LinksBox>
-								<Link
+								<LinkIcon
 									href="https://swxmb.com/files/Mateusz_Bednarz_Certificate.pdf"
 									target="_blank"
 									rel="noreferrer"
 									title="Course Certificate"
 								>
 									<CertificateIcon />
-								</Link>
+								</LinkIcon>
 							</LinksBox>
 						</Box>
 					</Container>

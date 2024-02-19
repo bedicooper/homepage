@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import α from "color-alpha";
 import { ReactComponent as GitHubSVG } from "../../../assets/icons/GitHubIcon.svg";
 import { ReactComponent as CertificateSVG } from "../../../assets/icons/icon-fileCheckMark.svg";
 
@@ -44,19 +45,6 @@ export const LinksBox = styled.div`
     justify-content: center;
 `
 
-// export const Container = styled.div`
-//     width: 100%;
-//     display: grid;
-//     grid-template-columns: 3fr 2fr;
-//     grid-gap: 1em;
-//     margin: 1em 0;
-
-//     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-//         grid-template-columns: 1fr;
-//         grid-template-rows: auto;
-//     } 
-// `
-
 export const Container = styled.div`
     width: 100%;
     display: grid;
@@ -76,17 +64,25 @@ export const Box = styled.div`
     justify-content: space-between;
     height: 100%;
     gap: 1em;
-    /* @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-        flex-direction: row;
-    }  */
 `
 
-export const Link = styled.a`
+export const LinkIcon = styled.a`
     color: ${({ theme }) => theme.colors.text};
     transition: color ${({ theme }) => theme.transitions.onHover};
 
     &:hover {
         color: ${({ theme }) => theme.colors.accent};
+    }
+`
+
+export const LinkText = styled.a`
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.accent};
+    border-bottom: 1px solid ${({ theme }) => α(theme.colors.accent, 0.3)};
+    padding-bottom: 1px;
+
+    &:hover {
+        border-color: unset;
     }
 `
 
