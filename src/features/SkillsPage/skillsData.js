@@ -34,4 +34,6 @@ export const skills = [
     "Multidisciplinary teamwork",
     "Scrum",
     "Trello",
+    "Angular",
+    "Angular Router"
 ];
