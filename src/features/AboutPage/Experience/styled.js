@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import α from "color-alpha";
-import { ReactComponent as GitHubSVG } from "../../../assets/icons/GitHubIcon.svg";
 import { ReactComponent as CertificateSVG } from "../../../assets/icons/icon-fileCheckMark.svg";
 
 export const Wrapper = styled.div`
@@ -35,20 +34,10 @@ export const Dates = styled.div`
     flex-direction: column;
 `
 
-export const Description = styled.span`
-    margin: 0;
-`
-
-export const LinksBox = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`
-
 export const Container = styled.div`
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
     gap: 1em 3em;
     margin: 1em 0;
 
@@ -58,12 +47,23 @@ export const Container = styled.div`
     } 
 `
 
-export const Box = styled.div`
+export const Description = styled.span`
+    margin: 0;
+`
+
+export const Paragraph = styled.p`
+    margin: 0;
+
+    &:not(:last-child) {
+        margin-bottom: 1em;
+    }
+`
+
+export const LinksBox = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    gap: 1em;
+    align-items: center;
+    justify-content: center;
 `
 
 export const LinkIcon = styled.a`
@@ -83,15 +83,6 @@ export const LinkText = styled.a`
 
     &:hover {
         border-color: unset;
-    }
-`
-
-export const GitHubIcon = styled(GitHubSVG)`
-    height: auto;
-    width: 48px;
-
-    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        width: 32px;
     }
 `
 
