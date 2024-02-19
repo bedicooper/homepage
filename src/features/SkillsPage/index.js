@@ -10,7 +10,8 @@ export default () => (
         </SecondHeading>
         <Paragraph>
             I specialize in frontend development in JavaScript, primarily working within React framework with Router and Redux Toolkit.
-            I'm also eager to explore other popular frameworks like Vue.js and Angular, as well as more backend oriented frameworks like Node.js
+            I am actively expanding my skillset by learning TypeScript and have initiated my journey into Angular development.
+            I'm also eager to explore more backend oriented frameworks like Node.js
             <br/>
             With a growing skill set in frontend development, I prioritize clean code and seamless user experiences. 
             I collaborate effectively and have experience in utilization of agile methodologies like 
