@@ -1,7 +1,7 @@
 import { SecondHeading } from "../../app/styled";
 import { StyledSection, Paragraph } from "../styled";
 import { SkillList } from "./SkillList";
-import { skills, nextSkills } from "./skillsData"
+import { skills, nextSkills, developingSkills } from "./skillsData"
 
 export default () => (
     <StyledSection id="skills">
@@ -12,10 +12,10 @@ export default () => (
             I specialize in frontend development in JavaScript, primarily working within React framework with Router and Redux Toolkit.
             I am actively expanding my skillset by learning TypeScript and have initiated my journey into Angular development.
             I'm also eager to explore more backend oriented frameworks like Node.js
-            <br/>
-            With a growing skill set in frontend development, I prioritize clean code and seamless user experiences. 
-            I collaborate effectively and have experience in utilization of agile methodologies like 
-            Scrum and tools such as Trello for efficient project management. 
+            <br />
+            With a growing skill set in frontend development, I prioritize clean code and seamless user experiences.
+            I collaborate effectively and have experience in utilization of agile methodologies like
+            Scrum and tools such as Trello for efficient project management.
             Additionally, my familiarity with Git and GitHub facilitates smooth version control and collaboration.
         </Paragraph>
         <Paragraph>
@@ -26,6 +26,10 @@ export default () => (
         <SkillList
             title={"My sklillset includes"}
             skills={skills}
+        />
+        <SkillList
+            title={"New skills I'm actively developing"}
+            skills={developingSkills}
         />
         <SkillList
             title={"What I want to learn next"}

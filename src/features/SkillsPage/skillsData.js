@@ -1,13 +1,20 @@
 export const nextSkills = [
-    "TypeScript",
-    "Node.js",
-    "Express.js",
+    "React Native",
     "React Context",
     "Cypress",
     "Unit testing",
     "JS classes",
     "TanStack Query",
     "Python w/ Django or Flask",
+];
+
+export const developingSkills = [
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoBD",
+    "Angular",
+    "Angular Router",
 ];
 
 export const skills = [
@@ -34,6 +41,4 @@ export const skills = [
     "Multidisciplinary teamwork",
     "Scrum",
     "Trello",
-    "Angular",
-    "Angular Router"
 ];
