@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import α from "color-alpha";
 import { ReactComponent as CertificateSVG } from "../../../assets/icons/icon-fileCheckMark.svg";
+import { ReactComponent as SealSVG } from "../../../assets/icons/icon-certified-seal.svg";
 
 export const Wrapper = styled.div`
     margin-top: 1.5em;
@@ -64,6 +65,8 @@ export const LinksBox = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    gap: 0.5em;
 `
 
 export const LinkIcon = styled.a`
@@ -87,6 +90,15 @@ export const LinkText = styled.a`
 `
 
 export const CertificateIcon = styled(CertificateSVG)`
+    height: auto;
+    width: 48px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        width: 32px;
+    }
+`
+
+export const SealIcon = styled(SealSVG)`
     height: auto;
     width: 48px;
 

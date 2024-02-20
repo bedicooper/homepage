@@ -11,7 +11,8 @@ import {
   LinksBox,
   LinkIcon,
   CertificateIcon,
-  LinkText
+  LinkText,
+  SealIcon
 } from "./styled";
 import { Article } from '../styled';
 import githubUsername from "../../../utils/githubUsername";
@@ -43,7 +44,7 @@ export const CurrentExp = () => (
                 href={`https://www.sololearn.com/en/certificates/CC-A2OX3ERN`}
                 target="_blank"
                 rel="noreferrer"
-                title="Course Certificate Page"
+                title="Course Completion Page"
               >
                 completed
               </LinkText>
@@ -57,12 +58,12 @@ export const CurrentExp = () => (
             </Paragraph>
           </Description>
           <LinksBox>
-            <div>certificate</div>
+            <div>course<br/>completion</div>
             <LinkIcon
               href="https://swxmb.com/files/Mateusz_Bednarz_Angular_Certificate.pdf"
               target="_blank"
               rel="noreferrer"
-              title="Course Certificate"
+              title="Course Completion"
             >
               <CertificateIcon />
             </LinkIcon>
@@ -123,14 +124,14 @@ export const CurrentExp = () => (
             </Paragraph>
           </Description>
           <LinksBox>
-            <div>certificate</div>
+            <div>accredited<br/>certification</div>
             <LinkIcon
               href="https://swxmb.com/files/Mateusz_Bednarz_Certificate.pdf"
               target="_blank"
               rel="noreferrer"
               title="Course Certificate"
             >
-              <CertificateIcon />
+              <SealIcon />
             </LinkIcon>
           </LinksBox>
         </Container>
