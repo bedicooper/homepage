@@ -1,11 +1,12 @@
 export const nextSkills = [
-    "React Native",
+    "Tailwind CSS",
+    "Next.js",
     "React Context",
     "Cypress",
-    "Unit testing",
     "JS classes",
     "TanStack Query",
     "Python w/ Django or Flask",
+    "Dart",
 ];
 
 export const developingSkills = [
@@ -13,8 +14,7 @@ export const developingSkills = [
     "Node.js",
     "Express.js",
     "MongoBD",
-    "Angular",
-    "Angular Router",
+    "React Native",
 ];
 
 export const skills = [
@@ -23,6 +23,9 @@ export const skills = [
     "React Router",
     "Redux(Toolkit)",
     "Redux - Saga",
+    "Unit testing",
+    "Mocha",
+    "Jest and RTL",
     "Promises, Async / Await",
     "Working with API(fetch, axios)",
     "Error handling",
