@@ -33,6 +33,7 @@ export const Row = styled.div`
 export const Dates = styled.div`
     display: flex;
     flex-direction: column;
+    margin: 1em 0;
 `
 
 export const Container = styled.div`
